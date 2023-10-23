@@ -20,7 +20,7 @@
 
 **2、进入JetBrains Toolbox 申请 IntelliJ IDEA 专业版的官网：**[点击这里](https://www.jetbrains.com/community/education/#students)
 
-![](resource/pic/屏幕截图 2023-10-23 152347.png)
+![img](resource/pic/屏幕截图 2023-10-23 152347.png)
 
 **点击Apply now**
 
