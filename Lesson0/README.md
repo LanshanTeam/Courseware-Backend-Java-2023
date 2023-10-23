@@ -22,7 +22,7 @@
 
 [点击这里](https://www.jetbrains.com/community/education/#students)
 
-![](![屏幕截图 2023-10-23 152347.png](resource/pic/%2F%C6%C1%C4%BB%BD%D8%CD%BC%202023-10-23%20152347.png)
+![](resource.pic/屏幕截图 2023-10-23 152347.png)
 
 **点击****Apply now**
 
