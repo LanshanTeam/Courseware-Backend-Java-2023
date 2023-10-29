@@ -1,4 +1,5 @@
 public class Demo1 {
+    // 变量演示
     public static void main(String[] args) {
         int a = 1;
         // 下面演示变量
