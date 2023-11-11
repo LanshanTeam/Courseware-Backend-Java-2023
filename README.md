@@ -10,8 +10,8 @@
 | 第二节课 | 面向对象基础                                         | 李熠 |
 | 第三节课 | 面向对象进阶                                        | 黄一峰 |
 | 第四节课 | 异常处理，IO，多线程，反射                            | 仝昊宇 |
-| 第五节课 | Mysql、集合框架，泛型                                | 周廉沛 |
-| 第六节课 | Maven,Springboot                                    | 黄一峰 |
-| 第七节课 | Mysql 、Mybatis、redis                              | 仝昊宇  |
+| 第五节课 | 集合框架，泛型                                      | 周廉沛 |
+| 第六节课 | Mysql 、Mybatis、redis                              | 仝昊宇  |
+| 第七节课 | Maven Springboot                                  | 黄一峰 |
 | 第八节课 | Linux，Docker，Docker-compose，等部署项目方面的知识  | 李熠   |
 | 寒假考核 | 单双人考核                                          |       |
