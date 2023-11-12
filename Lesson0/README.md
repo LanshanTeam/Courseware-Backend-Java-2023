@@ -10,7 +10,7 @@
 
 **1、首先，得先我们的重庆邮电大学学生教育邮箱：**
 
-#### ![img](resource/pic/1.png)
+#### ![resource/pic/1.png](https://image-9h8.pages.dev/file/335cacdaa4b035daf06d7.png)
 
 > 登录网址：[点击这里](https://mail.cqupt.edu.cn/)
 >
@@ -20,45 +20,45 @@
 
 **2、进入JetBrains Toolbox 申请 IntelliJ IDEA 专业版的官网：**[点击这里](https://www.jetbrains.com/community/education/#students)
 
-![](resource/pic/2.png)
+![resource/pic/2.png](https://image-9h8.pages.dev/file/2a7a06184fd0756be2d1e.jpg)
 
 **点击Apply now**
 
-![屏幕截图 2023-10-23 152426.png](resource/pic/3.png)
+![resource/pic/3.png](https://image-9h8.pages.dev/file/ac8c51cd685f7f4c9d7fa.jpg)
 
 **填写信息然后就会出现这样的爆红这需要我们的官方文档**
 
 点击**官方文档**
 
-![屏幕截图 2023-10-23 152538.png](resource/pic/4.png)
+![resource/pic/4.png](https://image-9h8.pages.dev/file/1672b5dd25c72098b51ed.png)
 
 **接下来，需要我们的官方文档，也就是这个：**
 
-![屏幕截图 2023-10-23 152714.png](resource/pic/5.png)
+![resource/pic/5.png](https://image-9h8.pages.dev/file/73cbcb12c93e31b302f5c.png)
 
 **点击那个网址**:[或点这里也可以](https://www.chsi.com.cn/)
 
 **3、登录学信网，完善基本信息就可以了**
 
-![屏幕截图 2023-10-23 152842.png](resource/pic/6.png)
+![resource/pic/6.png](https://image-9h8.pages.dev/file/067f4eae7f3d427993185.png)
 
-![屏幕截图 2023-10-23 153149.png](resource/pic/7.png)
+![resource/pic/7.png](https://image-9h8.pages.dev/file/ac81382a21b82920b1606.jpg)
 
 完了过后 查看申请**在线验证报告**
 
-![屏幕截图 2023-10-23 153215.png](resource/pic/8.png)
+![resource/pic/8.png](https://image-9h8.pages.dev/file/eb81f396e2fdbeff29db1.png)
 
 **将这个截图保存下来**
 
 **并复制那个 在线验证码**
 
-![屏幕截图 2023-10-23 153238.png](resource/pic/9.png)
+![resource/pic/9.png](https://image-9h8.pages.dev/file/97e11470270638cee9779.jpg)
 
 **添加图片,填写验证码提交就可以咯！！！**
 
 
 
-![屏幕截图 2023-10-23 155255.png](resource/pic/10.png)
+![resource/pic/10.png](https://image-9h8.pages.dev/file/0145d90462d885d6ebeb8.png)
 
 
 
@@ -80,7 +80,7 @@
 
 ##### 这里的账户密码用刚刚学生认证过的账号
 
-![屏幕截图 2023-10-23 155427.png](resource/pic/11.png)
+![resource/pic/11.png](https://image-9h8.pages.dev/file/98214187424ed5b0dce60.png)
 
 **这里的jdk选择刚刚安装的jdk8（jdk1.8就是jdk8）环境，如果没有就是没有安装成功，去cmd里输入**
 
