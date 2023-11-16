@@ -731,13 +731,13 @@ Spring 通过 XML 配置模式装载 Bean，也是反射的一个典型例子。
 
 ### Leva1:
 
-复习前两节课内容，自己写一写课件中的代码（无需提交）
+复习这几节课的内容，可以再去额外拓展一些相关的东西。（不用交）
 
 ## Leva2：
 
 来点算法
 
-1.[爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/)
+1.[单词规律](https://leetcode.cn/search/?q=%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%84%E5%BE%8B)
 
-2.[罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/description/)
+2.[在长度 2N 的数组中找出重复 N 次的元素](https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/)
 
