@@ -729,13 +729,11 @@ Spring 通过 XML 配置模式装载 Bean，也是反射的一个典型例子。
 
 ## **作业：**
 
-### Leva1:
+### Level1:
 
 复习这几节课的内容，可以再去额外拓展一些相关的东西。（不用交）
 
-## Leva2：
-
-来点算法
+## Level2:
 
 1.[单词规律](https://leetcode.cn/search/?q=%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%84%E5%BE%8B)
 
