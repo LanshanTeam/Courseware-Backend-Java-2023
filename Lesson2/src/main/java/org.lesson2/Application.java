@@ -1,4 +1,5 @@
-package src.main.lesson2;
+package org.lesson2;
+
 
 class Application{
 

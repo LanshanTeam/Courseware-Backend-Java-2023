@@ -213,7 +213,7 @@ class CatAuto{}
 
 然后我们编译一下，得到它们的字节码：
 
-![在这里插入图片描述](resource/pic/20200307223834219.png)
+![resource/pic/20200307223834219.png](https://image-9h8.pages.dev/file/343ffd6b4daeb84ea918a.png)
 
 我们可以看到，在没有写构造函数时，编译器会自动调用一个无参构造函数。
 
@@ -316,7 +316,7 @@ System.out.println(myFirstDog.getAge());
 
 封装是将数据和操作数据的方法捆绑在一起的机制。通过封装，对象的内部状态和行为被隐藏起来，只对外部提供必要的访问接口。也就是说，封装思想其实就是把实现细节给隐藏了，外部只需知道这个方法是什么作用，而无需关心实现，要用什么由类自己来做，不需要外面来操作类内部的东西去完成。这样可以保证数据的安全性和一致性，并提高代码的可维护性和可复用性。封装就是通过访问权限控制来实现的。在Java中，使用访问修饰符（如`private`、`protected`、`public`）来控制对类的成员的访问权限，同时提供公共的方法（getter和setter）来对数据进行操作。
 
-![img](resource\pic\20180702151647232.png)
+![resource\pic\20180702151647232.png](https://image-9h8.pages.dev/file/600978f3d00b841adb776.png)
 
 `其实常用到的也就private和public`
 
@@ -390,7 +390,7 @@ Husky husky = new Husky();
 husky.eat();
 ```
 
-![img](resource/pic/112201.png)
+![resource/pic/112201.png](https://image-9h8.pages.dev/file/b8f3f30656274c8c9ede4.png)
 
 #### 方法重写
 
@@ -406,7 +406,7 @@ public class Husky extends Dog{
 
 这个时候控制台打印的便是
 
-![img](resource/pic/112806.png)
+![resource/pic/112806.png](https://image-9h8.pages.dev/file/d483c427fe4e24dc08ded.png)
 
 - 我们如果不希望子类重写某个方法，我们可以在方法前添加`final`关键字，表示这个方法已经是最终形态
 

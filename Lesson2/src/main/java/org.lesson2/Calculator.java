@@ -1,4 +1,4 @@
-package src.main.lesson2;
+package org.lesson2;
 
 public class Calculator {
     public int add(int a, int b) {

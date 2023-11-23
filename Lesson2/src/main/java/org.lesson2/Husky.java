@@ -1,4 +1,4 @@
-package src.main.lesson2;
+package org.lesson2;
 
 public class Husky extends Dog{
 
