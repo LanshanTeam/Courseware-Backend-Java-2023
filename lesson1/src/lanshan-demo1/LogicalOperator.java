@@ -1,4 +1,5 @@
 public class LogicalOperator {
+    // 逻辑运算符演示
     public static void main(String[] args) {
         boolean b1 = true;
         boolean b2 = false;

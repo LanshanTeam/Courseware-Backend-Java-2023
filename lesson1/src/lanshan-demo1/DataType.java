@@ -1,4 +1,5 @@
 public class DataType {
+    // 演示数据类型
     public static void main(String[] args) {
         // 下面是整数类型
         byte a = 1;

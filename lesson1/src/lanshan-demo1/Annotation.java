@@ -1,4 +1,5 @@
 public class Annotation {
+    // 演示注解
     public static void main(String[] args) {
         // 下面输出一条语句
         System.out.println("Hello,蓝山");
