@@ -1,0 +1,30 @@
+version: '3'
+services:
+  springboot:
+    image: springboot:latest
+    build: .
+    ports:
+      - 8081:8081
+    volumes:
+      - /usr/photo:/usr/photo
+    depends_on:
+      - mysql
+  mysql:
+    image: mysql:8.0.20
+    container_name: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # 将你的 SQL 文件挂载到容器内的初始化目录
+    environment:
+      MYSQL_DATABASE: webserver
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ROOT_HOST: '%'
+      TZ: Asia/Shanghai
+    command: ["--init-file", "/docker-entrypoint-initdb.d/init.sql"]  # 执行初始化 SQL 文件
+volumes:
+  dbdata:
+  imagedata:
