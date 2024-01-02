@@ -2,7 +2,7 @@
 
 （上节课已经带大家基本的了解了spring的一些基础，现在让我们正式进入springboot的学习，这节课全是干货！话不多说我们直接开始）
 
-![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/1.jpg)
+![1.jpg](Lesson8/Resource/1.jpg)
 
 ## 1.1 三层架构是什么：
 
