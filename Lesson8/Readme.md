@@ -2,7 +2,7 @@
 
 （上节课已经带大家基本的了解了spring的一些基础，现在让我们正式进入springboot的学习，这节课全是干货！话不多说我们直接开始）
 
-![1.jpg](Lesson8/Resource/1.jpg)
+![1.jpg](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/1.jpg)
 
 ## 1.1 三层架构是什么：
 
@@ -52,7 +52,7 @@
 
 当单机web页面中超链接和发送表单时，控制器本身不输出任何东西和做任何处理，仅对请求进行解析。他只是接受请求并决定调用哪个模型构建去处理请求，在确定用哪个视图来显示返回的数据。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDJhMzBhMTZjZTI3YzFiYWJiNTZiOWE2MTM3NTUzZDFfeEFWWEd2WnNFZkdHdThKTUw2R0RYcjJRekxFclVneW5fVG9rZW46RWE5VmJCZjcybzZFT1d4dW1oWGNkdFFybkVmXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/2.png)
 
 ## 1.4 举例：
 
@@ -71,8 +71,7 @@
 
 现在我们有一个数据库studb中有一个students表，长这样
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MWYyMTBhNjM1MWMzNGY4ZDMwMDMyOTdiZjVmNTU1ZDZfZHRsWW84QjBhaXRxWHc1aEVxeVd0R3o5T0dSbEJqRFNfVG9rZW46WXdQRWJYb0F2b2dIR1h4cHhxTGNJbWRRbnVjXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
-
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/3.png)
 我们该怎么实现使用java代码的方式去查询这个表里的所有信息呢？
 
 # 2.Spring实现（了解）
@@ -365,8 +364,7 @@ public class JdbcTemplateTest {
 
 文件格式如图
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OTE1OTQzZGM3YmU2Y2VhMGVlMmQ1OGI3MTAyZDQxMDlfcVQ0RjFPSjkwN1ZRY2dPTzJ5WnBHdWRrNEdRSHVwOG9fVG9rZW46Sk1QaGJNdU5kb0ZIME14Vk41amNvS251bkpjXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
-
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/4.png)
 ps：1.pojo为普通java类
 
 2.使用 impl（implementation）文件的一种常见做法是将接口和实现类分离，以提高代码的可维护性和可扩展性。
@@ -543,8 +541,7 @@ public class ControllerTest {
 
 不讲了，还是创建一个maven项目，idea自带有的一个快速创建springboot项目，比较简单快捷
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjQwZTY4OTFhZjQ1ZmZiOTU5NzdjODhkZWM4OWFlZWJfREVOd3k1TW1NaHM3Z3RyNkN4TG83MDN6S3VGWVRscjdfVG9rZW46T1pZRWJXNDV1b2hSNkh4Z2NaemNzOVFVbjdYXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
-
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/5.png)
 自己去研究😊
 
 ## 3.3 依赖引入
@@ -638,7 +635,7 @@ public class Student {
 
 文件格式如图：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTRlMGM1NmU5YTE4YWU5ZDdiNjE1NWIyNzMxOTI1NGFfbzNaNWlsdFl5RUxKZ2dSVlBnNkt1ZFJXS3JZQUdITXFfVG9rZW46VnpGd2JoVVpZb1JsNVV4WHFTR2MzU3RLbjBiXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/6.png)
 
 ### 3.5.1 持久层（Mapper层）
 
@@ -660,7 +657,7 @@ MyBatis 的主要特点包括：
 
 接口：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OGRiZGZjMmNhOGFjYjVjNzQyMzBmYTBkNjg0MDQ0OWRfMGRUUlpneDROSDRKa0xwQXBZVmhFM3JFQjdoY2YwRVBfVG9rZW46SXBVZ2JpSmptb3dmT1l4dXJkV2M0NVRabmhoXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/7.png)
 
 ```Java
 @Mapper
@@ -671,7 +668,7 @@ public interface StudentMapper {
 
 resource文件中：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MTdkZDUyMjI5ZmIzM2Q4MmJiZjg5YmQ5YWRlMTQ0NzFfdVlqeHlaOUtRdk1xOHZ2cWlNMkNjcXhTemFWY3ZadFVfVG9rZW46TGpISWJXV1h1b1phMXJ4b3RHWGM0QU9ZbmNnXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/8.png)
 
 ```Java
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -731,7 +728,7 @@ public class StudentController {
 
 ## 3.6 配置文件application.yml
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmVjMDJjNTI1OTIzNWFiMGE1MjFlM2JiOWZjMTJmZGRfRVY4RkVPYkFRbXY1M2FVRWFydDFDM29qM1lIbVZnR3ZfVG9rZW46UFE3OGJsT2VCb2V4SXR4ODhjcmNSNGU5bmNjXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/9.png)
 
 想必大家也看到了上面的spring实现中也有配置文件properties，这里也可以用properties，但是我们更推荐学习使用yml文件格式
 
@@ -745,9 +742,9 @@ property和yml的区别：
 4. 扩展性：YAML 支持自定义标签和类型的扩展，可以通过自定义类和标签解析器来处理非标准的数据结构。Properties 文件没有直接的扩展机制，只能通过键值对的方式进行配置。
 5. 文件后缀：YAML 文件的常用后缀为 `.yaml` 或 `.yml`，而 Properties 文件的常用后缀为 `.properties`。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmZiZGVkN2ZhYzE2Y2Q1MGQxYmMyN2E2Njc2NDhkYTlfeXc2ZjY0ejVER2VqOUJSUEtzUEFqTmVJZkFZcjZhdThfVG9rZW46UElQQ2JWbG41b2NERFB4bENNOGNkbGY0blBjXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/10.png)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjJjYTgwMDZkODI1OTVkYTA4OGJkYzQyNjBmNzhkNDBfNFFQQ3dsNkpucmFRbnc1Tkd5NGlaSHNGY014a09PbjJfVG9rZW46VlJkbWJZTklIb2hEdWZ4dW1mZGNPdVIwbmVkXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/11.png)
 
 (显然yml格式更加直观易懂）
 
@@ -793,7 +790,7 @@ public class Main {
 
 或使用apifox等接口测试软件来访问该网址（推荐）
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2Q2ZTdmNTJiY2YyMjkzMjkxMGYyODk5YTRmMzE4M2ZfWHlLcDl1ZzBJZEFDUFpaeE5HbEhPcm9kb25Kc3M2VlpfVG9rZW46QXFmQmJjejBLb0twc0h4MkxOQmNEQzNjbmFjXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/12.png)
 
 这里是使用网页访问的展示图
 
@@ -856,11 +853,11 @@ JSON 支持以下几种数据类型：
 
 Spring MVC 基于前端控制器模式，其中一个中央控制器（DispatcherServlet）负责拦截所有的请求，并将它们分发给相应的处理器（Controller）。控制器处理请求后，将模型数据传递给视图进行渲染，最终生成响应返回给客户端。总之就是拿来处理请求，覆盖表述层，实现表述层的简化。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NzQ3NzRkNWQ4OGJkMjg1MjcwZDNlMjI5MDRlY2U2YzhfTnR2c1FMbUZNaHM3bjJidjg3NWJBZ29zS1gwSUlaV2hfVG9rZW46STZqS2JuN2xRb3d3Z1V4eVNaemNXaUpYbllkXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/13.png)
 
 ### 4.1.2 SpringMVC处理请求流程：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YjVlOTQzNDg0NDg5ZDVmZDMxYWYwNjE4NzRkYWQ1MzlfVjk2aU9ZU0dnbmFZamdPbndJOGEwaTZrQ0NRRGJHdG1fVG9rZW46WXdGZGJzZGFBbzhTOHV4RzVFQmMzcnhtbmJnXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/14.png)
 
 **SpringMVC涉及组件理解：**
 
@@ -921,13 +918,13 @@ MyBatis 是一款流行的 Java 持久层框架，它提供了一种优雅的方
 
 1. 在我们项目中
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NjgxZjgwMWUwYTA5Y2JmZDQ0YzViYmFkMDBiOTEwNDNfQ0lsVnBKSnBTbWtNUDZCZHBaNmxNZlk3VG45eG1sOGhfVG9rZW46Q2RYUmIyMzZVb3J4RUN4czk0UGNhUU5pbk9kXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/15.png)
 
 需要写入mapper接口来规定mapper有些什么方法
 
 1. 在resource文件中
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OTI0ZTFhMjQ2Njg1NWEyMmY2MTNlODYyNGQ0MmY3MWRfZFpaamdCMkt3dEJUQWhZN294eW9FS1pLYkVNMjBaU0JfVG9rZW46QWkzR2I3VFVNb1B3bG54TFlCbWNkTURVbjNiXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/16.png)
 
 创建mapper文件，这里面对应实现了上面mapper接口中的方法
 
@@ -1000,7 +997,7 @@ ps: 1.mapper-locations: classpath:mapper/*.xml *# 在resource文件下寻找mapp
 
 下个插件就行了：mybatisx
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2Q1MzBmNjZkZTY2NzYyZjk0Mzc4OTU2MzIzYzhmMmFfRkNZUkV0aEZIS2tOSHJaNkdBSjV0U0Jac05QZ1VVZjBfVG9rZW46VkxCZ2JSOVZWb3ZPY1h4UEVFY2NrcTQybkxmXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/17.png)
 
 ## 4.3 SpringBoot如何自动装配注入ioc容器(DI)
 
@@ -1269,7 +1266,7 @@ public class StudentController {
 
 我们使用apifox来模拟前端传值看看返回结果
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=N2VjYmI4NGMwNmEzMjM0ODVhNzc0YzBkMzI0ZmFhMzJfc1V2aGVVUVFNS3RmdklXTzJJS081MmZqQlB0VXNwRXZfVG9rZW46QWgyWGJ3Yjllb1FmeE54Nkp6TGNEYjNJbm1TXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson8/Resource/18.png)
 
 这样我们就算成功根据id查到了student的值 
 
