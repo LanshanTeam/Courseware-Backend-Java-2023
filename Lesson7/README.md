@@ -2,7 +2,7 @@
 
 > #### **为什么要学习springboot？他是什么？他是拿来干嘛的？跟spring？有什么关系？（这节课偏理论知识多一点，主要带大家了解）接下来我会为大家一一介绍：**
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NzBmM2M0NTkxOTg5NGEwMWVmNzg0ZTI1M2VjYmYwMTdfV0M4OFJkM3dQSVp3SExlcVhqTTBCaTRWekh3SEwzY2RfVG9rZW46S2JiUWJQbGU0b2c4dnd4MVVrMmN6QzZZbm9GXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/OIP%20(1).jpg)
 
 ## **一、前置知识**
 
@@ -12,7 +12,7 @@
 
 ##### **1.1 大家在创建项目时一定有看到过这个：（不知道大家有没有对这个产生过疑惑或者是去搜一搜这是个什么东西）**
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NGM1MzQ2YjE0MmNjMjg1YzNhNWRhYzE0ZjBlNTdjYTZfc3pTZnQ2bXpOZ09KS1EzOFo5MHpGMXRMTEpBZWd0VzhfVG9rZW46VkJjUmJJTmRpb3pGbkl4Q05aMWM3eDZzbnZjXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/o4zvi5f9nl.png)
 
 **idea中自带****maven****构建工具不需要我们再下载导入**
 
@@ -28,7 +28,7 @@ Maven是一个[项目管理工具](https://cloud.tencent.com/product/coding-pm?f
 
 通过上个步骤建立好maven的项目之后呢我们打开它，会发现我们左边的文件栏中多了一个：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGY3NTFkNzQ2N2ZiNDZjNTQ0YTk5OWZhMzI5OWVhOWVfWWRDNXFKS21kNGt3QkZwQWNjNkR3a2lrM0tIOTBId1ZfVG9rZW46SmtMQWJ0eGZPb0V5QVJ4R0lNN2M2NFl6bnVjXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/s5sxszzx2h.png)
 
 这样的文件，这个文件pom.xml就是整个maven项目中最核心的文件了：POM全程*Project Object Model*，又称**项目对象模型**。他是Maven工程的基本工作单元，是一个XML（可扩展标记语言）文件，包含了项目的基本信息，用于描述项目如何构建，声明项目依赖等等。执行任务或目标时，Maven会在当前目录 中查找 POM并读取从而获取所需的配置信息执行目标，属于项目级别的配置文件。
 
@@ -107,13 +107,13 @@ Maven是一个[项目管理工具](https://cloud.tencent.com/product/coding-pm?f
 
 ##### 1.4  dependencies的作用：**Maven**的依赖管理
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YzZlM2FkOTM2OTIwNTMwMWMyYmJjY2VkM2U5MTQ1NTVfQnZZYndKNmExQ3lHem1UT05kZVhhZ05KQll3Mzcza01fVG9rZW46TktNVWJwMzM1b0g4aVp4ZnFDMGNCWWZ5blBoXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/tnvtn2je4g.png)
 
 相当于帮我们做了导入jar包的工作，在我们创建项目并想要使用一些技术栈时（例如mysql）需要对应的jar包才能使用里面的方法，而有了maven过后，我们不必再去官网下载对相应的jar包整合到我们的代码中，而是maven通过<dependencies></dependencies>这样的工具帮助我们完成了这样一项繁琐的工作，降低了我们开发的时间成本，可以说是java宇宙中一项伟大的发明，也为后面spring奠定了基础（扯多了）。
 
 ##### 1.5 项目的声明周期
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjAyNWE3ZGZkY2RiZGM1MDM5NmUzNDM5NzQ5YzFkN2JfMUREUmxRZlp0OWlyRjdYZmF4MlZFREp1QjhVOHR4dlZfVG9rZW46SWxTUmJPOUVmb0tkcW54bWVwNWNNZk9ZbmxkXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20092918.png)
 
 maven 通过执行一些简单命令即可实现上边生命周期的各各过程，比如执行 mvn compile 执行编译、
 
@@ -121,8 +121,7 @@ maven 通过执行一些简单命令即可实现上边生命周期的各各过�
 
 导入maven后右边菜单栏也可以看到这些快捷操作的按键，不需要去cmd写命令行
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDRjOWU0NTY2ZDU3YzViZmZiOTFhM2E0MDFlNzE2N2Zfd2w4cUZmM1ZXRHV2TDlveDV3MkNIVmRZYWlHNUkwcVlfVG9rZW46RjVwNmJlWjFTb3hINXR4MUlnZWNsRmNVbkNRXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
-
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20093628.png)
 例如写完项目打包这些，直接在上面点点点操作就完了 O.o ;
 
 ##### 1.6 maven功能：
@@ -137,7 +136,7 @@ maven 通过执行一些简单命令即可实现上边生命周期的各各过�
 
 我们这样来理解maven项目，就是在java项目和web项目上裹了一层maven，本质上java项目还是java项目，web项目还是web项目，但是包裹了maven之后，就可以使用maven提供的一些功能，即通过pom.xml添加jar包 就像在蜜汁鸡外面裹了一层面粉油炸一下变成了炸鸡，但是他还是一只鸡
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MGEwNDM5MmUxZTk5Y2YwNmU0ZGU4Mzc1MGJjNDYxNTRfeDVCZUNBVVB6alJCdVhiMlRHTkhlUHYwU1NxUVdKWjNfVG9rZW46UG1BQmJLT2hGb2FNYUJ4WlVNVGN4NWxtbk5kXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20103008.png)
 
 #### 2.spring框架：
 
@@ -161,19 +160,19 @@ Spring 是一个开源的 Java 应用框架，是为了解决企业级应用开�
 
 看看官网
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2JmZTkwNWFlN2FlM2VkYzFjMDNjOWI5NzQyZjQ1NjZfRWpROHBGckZZUk1GNFBEV0h6a0NNM0ZDNlMydmQ3dXhfVG9rZW46QU93bmJWbjBkb20zc2N4NllHR2MwQTY3bkJRXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20110814.png)
 
 ###### 2.3 spring的优点：
 
 看看官网
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YTE3YWQ5MzBkZjYyNzI3NWFjN2M2Y2ZlNjlmYTgzMDlfaGdWSWlNZkMzRDhMV3BKclFOa3VDTTN6ODVERU5OSGtfVG9rZW46QzlTbWJJUTdTb1JlT2h4cjR5YmNsQnhHblNmXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20110903.png)
 
 （看不懂？反正就是吹spring很🐂，看不懂上官网看翻译，养成自己去康官方文档的习惯）
 
 ###### 2.4 spring的框架：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2E3YTFkNzllNDY2OTg4NDQwNjJkYWRmODYwZjRmNTRfcnhRbzBwckhzQll5b2d6aWJ2WjdiekVBSkZwN3hQZlhfVG9rZW46WVU4M2JMTFY4b2lzWnN4cHdNa2NlbzNLbldNXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20111425.png)
 
 ###### 2.5 我们要学的：
 
@@ -257,13 +256,13 @@ Spring 框架是一个开源的、轻量级的、模块化的 Java 应用框架�
 
 ######  3.1.3 站在文件结构的角度理解框架，可以将框架总结：框架 = jar包+配置文件
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NmI5OGI0YzFhMWY0MTQ5MmU2MDM4Y2JlYmJkYjliNGFfalh3clZhN20yRmxVb2hRVDRhbDNzVUE4RHgySFlxR0ZfVG9rZW46TWx5OWJYMFg1bzE4cTF4TmNGeGNUOE5LbkdlXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20131200.png)
 
 ##### 3.2 spring主要功能模块
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NmE0NTk4NGE4MGUxOTQxN2RkNzgxYjUxOWNkY2NhMTlfTnVybkxOYWQ2RjZmWFU0NTBQVWd1WFhoU3lpZVFqZzZfVG9rZW46SktSOGJZd1d2b212UEd4d21HYWN5aHpzbmdoXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20131505.png)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MTNkYjYyMzZiMDg2YmExNmI4MmVlNTFmNzQzOWE5MWVfN1ptVmxCZ1ZxT3lzMTUwbFJxWHJXT2JnSmVJZTNjcW5fVG9rZW46U0pESmJnOUd0b2RsVjl4V0s1amNMSE15bjBnXzE3MDE2NzQyNzY6MTcwMTY3Nzg3Nl9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20131514.png)
 
 可将spring主要功能总结为：
 
@@ -318,7 +317,7 @@ public class hello {
 
 步骤三：在resource文件下创建一个名为applicationContext.xml的xml文件
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDIyNTUwZjQ1NjgzZWE5ZmJjMDZiNDM1ZDMzYzZjNzZfNG54akZsWVZxM3daZUdvY0NJbDFjWjRETmRXWXRtMmJfVG9rZW46Q3lNd2JpaUtLb2xseGV4a3h1WWN5bjJ1bkFiXzE3MDE2NzQyNzc6MTcwMTY3Nzg3N19WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20140723.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -468,7 +467,7 @@ public class HelloController {
 - 父项目 **版本仲裁中心**，把所有常见的jar的依赖版本都声明好了。
 - 比如：`mysql-connector-j`
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YzI0NWY0MWM2ODNkNWUwYjA2OGY5MTY0ZTZmZjExZDRfTXYwVUY2cnJIRmZKU2owaVNRRnhzSUdKZjZvWGlPdnFfVG9rZW46TTRCV2JCRG81b0lMQmt4b3J1amN4dTB3blhjXzE3MDE2NzQyNzc6MTcwMTY3Nzg3N19WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20145528.png)
 
 #### 2.2 启动器是什么
 
@@ -482,7 +481,7 @@ Spring Boot提供了一种叫做Starter的概念，它是一组预定义的依�
 4. 快速启动和开发应用程序：Spring Boot Starter使得从零开始构建一个完整的Spring Boot应用程序变得容易。它提供了主要领域（如Web开发、数据访问、安全性、消息传递等）的Starter，帮助开发者快速搭建一个具备特定功能的应用程序原型。
 5. 模块化和可扩展性：Spring Boot Starter的组织结构使得应用程序的不同模块可以进行分离和解耦。每个模块可以有自己的Starter和依赖项，使得应用程序的不同部分可以按需进行开发和扩展。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDdkNzhjOTBiMzNiZWU1MTcyZWJhYmE2MWI2Yjg4YTFfQWJJUUdQek12aEpJR01NTTFDdWhEcms0eHh6UlRybUVfVG9rZW46S2RFWmJ3SlhOb0xSMUJ4aWY1b2M3b0hoblRkXzE3MDE2NzQyNzc6MTcwMTY3Nzg3N19WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/dalaoshi/Lesson7/Resource/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-04%20145930.png)
 
 Spring Boot提供了许多预定义的Starter，例如spring-boot-starter-web用于构建Web应用程序，spring-boot-starter-data-jpa用于使用JPA进行数据库访问，spring-boot-starter-security用于安全认证和授权等等。
 
