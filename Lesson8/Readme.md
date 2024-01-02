@@ -1271,7 +1271,7 @@ public class StudentController {
 
 ![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=N2VjYmI4NGMwNmEzMjM0ODVhNzc0YzBkMzI0ZmFhMzJfc1V2aGVVUVFNS3RmdklXTzJJS081MmZqQlB0VXNwRXZfVG9rZW46QWgyWGJ3Yjllb1FmeE54Nkp6TGNEYjNJbm1TXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
 
-这样我们就算成功根据id查到了student的值
+这样我们就算成功根据id查到了student的值 
 
 # 5.总结
 
