@@ -2,8 +2,7 @@
 
 （上节课已经带大家基本的了解了spring的一些基础，现在让我们正式进入springboot的学习，这节课全是干货！话不多说我们直接开始）
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NTNjYmQ2ZTBjNGQzMzFjYjEwOWQxOWQ5NDJjYTE3NDBfRVhiS0FMYmlnWHBDd09oTkxLc2RuQTVkbDFoY2ZYQ0ZfVG9rZW46RkxZZ2JPSk40b1drUHB4dm1zWmNobVVKbndlXzE3MDQxNzE1NDA6MTcwNDE3NTE0MF9WNA)
-
+![img](Lesson8/Resource/1.jpg)
 # 1.MVC模式（三层架构）
 
 ## 1.1 三层架构是什么：
