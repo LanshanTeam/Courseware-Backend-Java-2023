@@ -1,4 +1,4 @@
-# Courseware-Backend-Java-2023
+# Courseware-Backend-Java-2023~2024
 蓝山工作室 java 方向 2023-2024 年课件
 
 
@@ -16,3 +16,16 @@
 | 第八节课 | Springboot进阶、springmvc、mybatis                  | 黄一峰 |
 | 第九节课 | Linux，Docker，Docker-compose，等部署项目方面的知识    | 李熠   |
 | 寒假考核 | 单双人考核                                          |       |
+
+2024春季
+| 课时     | 内容                                                | 主讲人 |
+| -------- | -------------------------------------------------| ------ |
+| 第一节课 | web开发，servlet，tomcat                          |  |
+| 第二节课 | SpringSecurity                                   |  |
+| 第三节课 | 认识微服务，网关，反向代理                          |  |
+| 第四节课 | netty，rpc                                        |  |
+| 第五节课 | springcloud：Eureka,Feign,Ribbon                |  |
+| 第六节课 | rabbitmq，AMQP                                   |  |
+| 第七节课 | springcloudalibaba:Nacos,Dubbo                   |  |
+| 第八节课 | k8s                                              | |
+| 最终考核 | 单人考核                                        |       |
