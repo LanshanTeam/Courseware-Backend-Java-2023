@@ -1,6 +1,7 @@
 # Courseware-Backend-Java-2023~2024
 蓝山工作室 java 方向 2023-2024 年课件
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=GOOD+GOOD+STUDY;HAPPY+EVERY+DAY)](https://git.io/typing-svg)
 
 2023秋季
 
@@ -29,5 +30,3 @@
 | 第七节课 | springcloudalibaba:Nacos,Dubbo                   |  |
 | 第八节课 | k8s                                              | |
 | 最终考核 | 单人考核                                        |       |
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=GOOD+GOOD+STUDY;HAPPY+EVERY+DAY)](https://git.io/typing-svg)
