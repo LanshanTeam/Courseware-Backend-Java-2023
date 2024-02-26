@@ -21,12 +21,12 @@
 2024春季
 | 课时     | 内容                                                | 主讲人 |
 | -------- | -------------------------------------------------| ------ |
-| 第一节课 | web开发，servlet，tomcat                          |  |
-| 第二节课 | SpringSecurity                                   |  |
-| 第三节课 | 认识微服务，网关，反向代理                          |  |
-| 第四节课 | netty，rpc                                        |  |
-| 第五节课 | springcloud：Eureka,Feign,Ribbon                |  |
-| 第六节课 | rabbitmq，AMQP                                   |  |
-| 第七节课 | springcloudalibaba:Nacos,Dubbo                   |  |
-| 第八节课 | k8s                                              | |
+| 第一节课 | web开发，servlet，tomcat                          | 李熠 |
+| 第二节课 | SpringSecurity                                    | 仝昊宇 |
+| 第三节课 | 分布式入门，nginx，getaway                         | 周廉沛 |
+| 第四节课 | netty，rpc                                        | 仝昊宇 |
+| 第五节课 | springcloud：Eureka,Feign,Ribbon                | 黄一峰 |
+| 第六节课 | rabbitmq，AMQP                                   | 周廉沛  |
+| 第七节课 | springcloudalibaba:Nacos,Dubbo                   | 黄一峰|
+| 第八节课 | k8s                                              | 李熠 |
 | 最终考核 | 单人考核                                        |       |
