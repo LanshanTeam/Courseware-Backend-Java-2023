@@ -28,5 +28,5 @@
 | 第五节课 | springcloud：Eureka,Feign,Ribbon                | 周廉沛 |
 | 第六节课 | rabbitmq，AMQP                                   | 李熠  |
 | 第七节课 | springcloudalibaba:Nacos,Dubbo                   | 黄一峰|
-| 第八节课 | k8s                                              | 李熠 |
+| 第八节课 | kubernetes                                              | 李熠 |
 | 最终考核 | 单人考核                                        |       |
