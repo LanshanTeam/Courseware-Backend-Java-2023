@@ -22,8 +22,8 @@
 | 课时     | 内容                                                | 主讲人 |
 | -------- | -------------------------------------------------| ------ |
 | 第一节课 | web开发，servlet，tomcat                          | 黄一峰 |
-| 第二节课 | SpringSecurity                                    | 仝昊宇 |
-| 第三节课 | 分布式入门，nginx，getaway                         | 周廉沛 |
+| 第二节课 | SpringSecurity stream API                        | 仝昊宇 |
+| 第三节课 | 分布式入门，nginx，gateway                         | 周廉沛 |
 | 第四节课 | netty，rpc                                        | 仝昊宇 |
 | 第五节课 | springcloud：Eureka,Feign,Ribbon                | 周廉沛 |
 | 第六节课 | rabbitmq，AMQP                                   | 李熠  |
