@@ -31,7 +31,7 @@
 
 *.htm、*.html，这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。网络：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MTkzZmM2M2I4YmVlYWE0NTcyNDIyNzdiZWY0ODQ1ZjNfWXBiMmlwbE1aZ01yY3R0NXZyVUM0eDg3azA0d0hoOFVfVG9rZW46RXoyeGJCb2ptb2o4dTR4emZ5bGMyM0JIbkdmXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img.png)
 
 - 静态web的缺点：
 
@@ -43,7 +43,7 @@ web页面无法动态更新，所有用户看到的都是同一个页面（轮�
 
 页面会动态展示：“web页面展示的效果因人而异“；
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZThhY2RmOGNhOWUyZWViNGIwMzI0NDY1NjlkYmU0OWFfMFZxQkFDVjd2NWMwN2dsUU1MeDFhZFZBcmxLWTFCN25fVG9rZW46WUtiT2J3VVFWbzVjcWx4a3Zmd2NzbUlibm1oXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_1.png)
 
 例如：b站中我们随时刷新会推送新的视频
 
@@ -114,11 +114,11 @@ HTTP/1.1 相比 HTTP/1.0 性能上的改进：
 
 HTTP请求报文由3部分组成（请求行+请求头+请求体）：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGEwNmI5YjcwMjRlZWI5NGI1Y2UxODlmYjk1ZDhiNThfSDIxcWdaaWR3WFZwdHlMZlJ0czlyWDN4TWtxTmdtNERfVG9rZW46Vm96R2I0UkRSb0p3c1R4OGxCWWNLVjhTbnREXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_2.png)
 
 下面是一个实际的请求报文：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OThkYzMyNGQ0MTBkMDg0NzMxOWYyYjg4Y2NkMDBkNmZfT0RLWGJ2S2FrNTRqVHZ2S3FiZGFjZTF3bUNvRkdBM21fVG9rZW46RDR5a2IzcWNRb3R1d1h4TEs1TGNLaUJKbjBnXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_3.png)
 
 看不懂？（那就是寒假考核做了没认真看 【狗头】）
 
@@ -128,12 +128,11 @@ HTTP请求报文由3部分组成（请求行+请求头+请求体）：
 - *Content-Length 字段：*服务器在返回数据时，会有 `Content-Length` 字段，表明本次回应的数据长度。
     -  作用： 重所周知HTTP 是基于 TCP 传输协议进行通信的，而使用了 TCP 传输协议，就会存在一个“粘包”的问题，HTTP 协议通过设置回车符、换行符作为 HTTP header 的边界，通过 Content-Length 字段作为 HTTP body 的边界，这两个方式都是为了解决“粘包”的问题。粘包是什么呢？问问jpt（Q_Q）
 
-    - ![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NGQ5NmE1ZWI5NjRiYzMyZjUwMDA2Y2JlNWFlZDhmNmVfMEdONEpqTDNBMm51a0N0NUZrUHVUYUhEemF1d09DMkhfVG9rZW46VjEzeWJFbjJxb2dET1J4bXpNcGNKdEpxbkJFXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
-
+    - ![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_4.png)
     -  当然造成粘包的情况还有很多不仅可以来自发送方，其实也可以来自接收方，所以使用content-length字段是一个很不错的协助解决粘包的方法（并不能直接解决粘包），通常会选择固定一个消息的长度，此时content-length就可以作为该段消息的边界，与其他消息分开。。。其他的自己下去看吧
 - *Connection 字段：*`Connection` 字段最常用于客户端要求服务器使用「HTTP 长连接」机制，以便其他请求复用。（HTTP 长连接的特点是，只要任意一端没有明确提出断开连接，则保持 TCP 连接状态。）
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWFmZjI0OTE3ZjU1MmRhMmEzOGVkODZiNjkyNzk0Y2ZfMWh0a2FvWmVtejI4UnJ2T3FHczZmQUJGbUlob3ZWeGFfVG9rZW46TWt2Z2JKbURnb29Tejl4WFJBQ2NYaG9obm5oXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_5.png)
 
 短连接和长连接是在网络通信中常用的两种连接方式，它们有以下特点：
 
@@ -238,11 +237,11 @@ public class HttpRequest {
 
 HTTP的响应报文也由三部分组成（响应行+响应头+响应体）：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2YwYjdhYTZiYjQxM2EzOGU0ODQwNzllMGMzNzYyMjdfeUxXSHpXYUhsTzlweEFVTGNXTmttNEoxSkZ2MzBUNmhfVG9rZW46TnNBWmI2Q1BXb2g0ZWx4RlRZZGNkOHhLbk9jXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_6.png)
 
 以下是一个实际的HTTP响应报文：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MjEwYzNlYzBjZTQ0NDE4NjBmNjQ1MGY2MDMzZGY1YWRfajduQ01ndEdxeTEwVHUydGFub24yTnNsajNEa1ZFNlFfVG9rZW46WndGd2JWN1pjb1Q3NFZ4ZExXSWM5RnpTblJmXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_7.png)
 
 响应体也就是我们最终请求想要得到的结果。大家在使用apifox或postman测试项目的时候相信你深有体会
 
@@ -304,7 +303,7 @@ http暂时就讲到这里，当然肯定不止这么点(!w!)
 - Servlet 提供了服务端动态生成内容的能力，可以处理各种类型的请求（GET、POST 等）并生成响应。
 - Servlet 在web程序中的位置
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MGYzNzViZjViMzQwM2EyNTg5ZGVhZDQzNDM1NzdhMDNfQmJnOENjRzVLQlZua2UxOFdpMHQ5YTUzQWdpTko4WmNfVG9rZW46SzBNM2IzQXpvb1l4Um14Znl6WGNwTHJYbnBmXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_8.png)
 
 当然我们现在都直接用sb框架了，这一块我们稍作了解就好
 
@@ -314,7 +313,7 @@ http暂时就讲到这里，当然肯定不止这么点(!w!)
 
 创建一个maven项目：项目路径如下
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=N2EwZWE0ODBkMWU3OWE1YWM4MzZkYzVmOGIyODE2Y2VfdjZ1OTJZMnQ5ZENvd3p6ZmYzcXJ3ZmNUQm5ad1NBRktfVG9rZW46Q3FVbmJZeXZqb216Ymh4TlZLYmNvVWxIblZoXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_9.png)
 
 web.xml
 
@@ -376,13 +375,13 @@ public class HelloServlet extends HttpServlet {
 
 然后自己在启动项里面配置装好的tomcat运行即可（ps：注意你的servlet版本jdk版本tomcat版本需要匹配才能正常运行）
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NzRhNWFiOTVkZmNiMGQ4YjQ1NmY1M2E0ZDJjY2MwYmRfcWFUT3d1ZnQ0QU5ZM3MxeVNyZWRaUWx0SnpscXk0c0hfVG9rZW46WWVjVWJYZ0RlbzhCM3d4U2VKbGMyc0pIblhmXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_10.png)
 
 [tomcat官网](https://tomcat.apache.org/)
 
 ## 1.3、http生命周期
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmRkZTBmNzk5YTc3YzE2NTEzY2RkOGEzYTdiYzk2M2JfMzg2WEo3WG9DaEJBOUFDenlieUVCaWNUSjJzWk56RnBfVG9rZW46T3hEZmJ2OExOb2dvVll4cWFzdGNOdXpybmJzXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_11.png)
 
 图中很明显了不需要我讲了吧，其实我们使用的springmvc中处理请求的步骤也是这样，只不过是在这基础上改进了而已
 
@@ -433,14 +432,13 @@ public class TestRequest {
 
 OSI定义了网络互连的七层框架（物理层、数据链路层、网络层、传输层、会话层、表示层、应用层）。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2YxNzZhMjViNTNkYTgwY2VhYzdhOTY0NmNhNDVmMjRfbkNmenVLczdJY2IzVUFCYzhOVU1DUWtZQzFPTmdhdENfVG9rZW46V2VkemJrYnZzb29HZ054Rm1KS2NZR2dHbm9jXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_12.png)
 
 ### 1.2、TCP/IP五层模型
 
 TCP/IP五层协议（物理层、数据链路层、网络层、传输层、应用层）
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NmU0OTJjMmNkNmY3NWNlNDNhYTkxYTMzODUxN2I3OTJfTEl0UHp1cW5wdHdlRkNCckR6QnIweGVCV0hSaFV5cU9fVG9rZW46VnM4QmJZZnhab0hCV2Z4aEgxOGNFVFpGbnJiXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
-
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_13.png)
 其实也就是把上面的应用层，表示层，会话层统一归到了应用层中。
 
 ### 1.3、应用层，传输层，网络层
@@ -764,7 +762,7 @@ public class SocketServer {
 
 寒假考核java组好像没人写双人考核，但是不知道大家看到这个没有
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=Yjk5ZTEyN2IyZDJiZTg1YjI0ODJjMTRhM2IxMjcyNDRfTU9uVmpjcnZqVXp4RFNvNDZua29ZWU5Ga1RrUGQxY2hfVG9rZW46UncyZmJvQmRGb1JiR2p4TWMxZmNUN1JHbmtoXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_14.png)
 
 那这里该如何实现我们的用户间的实时通信和对战呢，可能最开始我们回想到使用轮询的方法，这个方法就是定期向服务器发送http请求，服务器收到请求后返回数据，第二次请求的时候会检查数据是否发生改变，若改变则继续发送请求，若不改变则告诉客户端继续等待。
 
@@ -801,13 +799,13 @@ WebSocket 是 HTML5 一种新的协议。它实现了浏览器与服务器全双
 
 - websocket请求内容：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MTg4MWJjYTBlOTBiZDVmNWZiYTE0Yzk2ZTNkZDBkYjZfQU93dk5ISjlmcmpxUEM0TDdRQXdYNDBYMGtxUDFMSllfVG9rZW46RHVMOWJVUll3b25lMFZ4ZmtNaWNiOTNobklBXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_15.png)
 
 我们可以看到其实是类似于我们的http请求报文的：“Upgrade：websocket”参数值表明这是 WebSocket 类型请求，“Sec-WebSocket-Key”是 WebSocket 客户端发送的一个 base64 编码的密文，要求服务端必须返回一个对应加密的“Sec-WebSocket-Accept”应答，否则客户端会抛出“Error during WebSocket handshake”错误，并关闭连接。
 
 - Websocket响应内容
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmMzMzY2NWFiNWQyZmJmNmRjYzQ3MzRiNDdjM2JlY2FfQ2oxVkNEQkR5SmJ2ckV5cUJKdVg2aVRtaUtKR0FaRHhfVG9rZW46QmJBUmJES0tYb2lHYmR4aGpIb2NUSml1bmdmXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_16.png)
 
 类似的，也是长得像http响应报文：对应的里面的相关信息也就看的懂了
 
@@ -922,7 +920,7 @@ Tomcat是由著名的apache公司打造的一款开源中间件，它提供了�
 
 平时我们使用的springboot项目中
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OWQzOTBmNzVkYzQxOTBkNjM0YmVhMjNlNzg4MzA1YjdfQkdDMmpEZEk4cVp1aWVOMGtBQTlNODAzeGs3ZE5PT29fVG9rZW46Q0RyZGJpQlBNb0FqN3B4clBEVWMwYnVtbnBlXzE3MTExMDUwMzE6MTcxMTEwODYzMV9WNA)
+![img](https://github.com/LanshanTeam/Courseware-Backend-Java-2023/blob/main/Lesson10/Resource/img/img_17.png)
 
 已经默认帮我们整合了tomcat服务器了，我们需要了解一下他的作用就可以了。
 
