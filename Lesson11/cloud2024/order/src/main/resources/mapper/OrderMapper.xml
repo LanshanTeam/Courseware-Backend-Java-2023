@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.order.dao.mapper.OrderMapper">
+    <insert id="insertSelective">
+        INSERT INTO t_pay (pay_no, order_no, user_id, amount, delete, create_time, update_time) VALUES ( #{payNo}, #{orderNo}, #{userId}, #{amount}, 0, now(), now())
+    </insert>
+</mapper>

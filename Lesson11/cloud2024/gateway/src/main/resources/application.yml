@@ -1,0 +1,29 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: gateway9000 #以微服务注册进consul或nacos服务列表内
+  cloud:
+    consul: #配置consul地址
+      host: localhost
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+        service-name: ${spring.application.name}
+    gateway:
+      enabled: true
+      routes:
+        - id: pay_routh1 #路由的ID(类似mysql主键ID)，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://pay8002 #匹配后提供服务的路由地址(动态写入)
+          predicates:
+            - After=2024-03-23T21:27:13.552530100+08:00[Asia/Shanghai]
+            - Cookie=user, 70ash #请求包含Cookie，Cookie中键为user,值为70ash
+            - Header=Request_ID, \d+
+
+        - id: pay_routh2 #路由的ID(类似mysql主键ID)，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://pay8002 #匹配后提供服务的路由地址(动态写入)
+          predicates:
+            - After=2024-03-23T21:27:13.552530100+08:00[Asia/Shanghai]
+          filters:
+            - AddRequestHeader=color1,red  # 请求头kv，若一头含有多参则重写一行设置
+            - AddRequestHeader=color2,black

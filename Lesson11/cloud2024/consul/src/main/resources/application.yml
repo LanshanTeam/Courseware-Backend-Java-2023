@@ -1,0 +1,13 @@
+# 服务端口
+server:
+  port: 10001
+# 服务名称
+spring:
+  application:
+    name: consulClient
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
